@@ -14,10 +14,10 @@ on:
     types: [started]
 
 env:
-  MANIFEST: https://gitlab.com/OrangeFox/Manifest.git
-  DEVICE: rosy
-  DT_LINK: https://github.com/ElytrA8/recovery_rosy
-  DT_PATH: device/xiaomi/rosy
+  MANIFEST: https://gitlab.com/OrangeFox/Manifest.git -b fox_9.0
+  DEVICE: sakura
+  DT_LINK: https://gitlab.com/OrangeFox/device/sakura.git
+  DT_PATH: device/xiaomi/sakura
   TARGET: recoveryimage
   TZ: Asia/Kolkata
 
