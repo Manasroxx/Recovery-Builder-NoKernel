@@ -14,7 +14,7 @@ on:
     types: [started]
 
 env:
-  MANIFEST: https://gitlab.com/OrangeFox/Manifest.git
+  MANIFEST: https://github.com/SHRP/platform_manifest_twrp_omni.git
   DEVICE: sakura
   DT_LINK: https://gitlab.com/OrangeFox/device/sakura.git
   DT_PATH: device/xiaomi/sakura
