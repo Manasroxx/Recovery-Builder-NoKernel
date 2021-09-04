@@ -16,7 +16,7 @@ on:
 env:
   MANIFEST: https://github.com/PitchBlackRecoveryProject/manifest_pb.git
   DEVICE: sakura
-  DT_LINK: https://github.com/TeamWin/android_device_xiaomi_sakura.git
+  DT_LINK: https://github.com/ZIDAN44/device_xiaomi_sakura_twrp.git
   TARGET: recoveryimage
   TZ: Asia/Kolkata
 
