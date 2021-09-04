@@ -14,7 +14,7 @@ on:
     types: [started]
 
 env:
-  MANIFEST: https://gitlab.com/OrangeFox/Manifest/-/tree/fox_9.0
+  MANIFEST: https://gitlab.com/OrangeFox/Manifest.git
   DEVICE: sakura
   DT_LINK: https://gitlab.com/OrangeFox/device/sakura.git
   DT_PATH: device/xiaomi/sakura
