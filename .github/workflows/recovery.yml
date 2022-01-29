@@ -15,9 +15,9 @@ on:
 
 env:
   MANIFEST: https://github.com/PitchBlackRecoveryProject/manifest_pb.git
-  DEVICE: sakura
-  DT_LINK: https://github.com/ZIDAN44/device_xiaomi_sakura_twrp.git
-  TARGET: recoveryimage
+  DEVICE: camellia
+  DT_LINK: https://github.com/shahi7one/pbrp_device_xiaomi_camellia.git
+  TARGET: bootimage
   TZ: Asia/Kolkata
 
 jobs:
@@ -58,10 +58,10 @@ jobs:
              
        - uses: actions/upload-artifact@v2
          with:
-          name: recoveryzip
-          path: work/out/target/product/*/*.zip
+          name: bootzip
+          path: work/out/target/product/boot*.zip
 
        - uses: actions/upload-artifact@v2
          with:
-          name: recoveryimage
-          path: work/out/target/product/*/*.img
+          name: bootimage
+          path: work/out/target/product/boot*.img
